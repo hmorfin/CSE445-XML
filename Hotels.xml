@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://hmorfin.github.io/CSE445-XML/Hotels.xsd?v=2">
+        xsi:noNamespaceSchemaLocation="https://hmorfin.github.io/CSE445-XML/Hotels.xsd">
 
   <Hotel id="H1" Rating="3.8">
     <Name>University Inn</Name>
