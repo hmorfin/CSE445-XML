@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- ERROR (1): root element is incorrect; should be <Hotels> -->
+<!-- root element is incorrect; should be <Hotels> -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://hmorfin.github.io/CSE445-XML/Hotels.xsd">
 
-  <!-- Valid entry (to show one correct one before errors) -->
+  <!-- Valid entry -->
   <Hotel id="H1" Rating="3.8">
     <Name>University Inn</Name>
     <Phone>480-966-7221</Phone>
@@ -17,7 +17,7 @@
     </Address>
   </Hotel>
 
-  <!-- ERROR (2): missing required id attribute -->
+  <!-- missing required id attribute -->
   <Hotel Rating="4.3">
     <Name>The Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
@@ -31,7 +31,7 @@
     </Address>
   </Hotel>
 
-  <!-- ERROR (3): missing Phone element -->
+  <!-- missing Phone element -->
   <Hotel id="H3" Rating="4.5">
     <Name>Omni Tempe</Name>
     <Address>
@@ -44,7 +44,7 @@
     </Address>
   </Hotel>
 
-  <!-- ERROR (4): missing closing </Address> tag -->
+  <!-- missing closing </Address> tag -->
   <Hotel id="H4" Rating="4.4">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
@@ -57,7 +57,7 @@
       <NearestAirport>Phoenix Sky Harbor</NearestAirport>
   </Hotel>
 
-  <!-- ERROR (5): duplicate Name elements -->
+  <!-- duplicate Name elements -->
   <Hotel id="H5" Rating="4.2">
     <Name>Canopy By Hilton</Name>
     <Name>Extra Wrong Name</Name>
