@@ -5,13 +5,12 @@
   <Hotel id="H1" Rating="3.8">
     <Name>University Inn</Name>
     <Phone>480-966-7221</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>902</Number>
       <Street>S Mill Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -19,52 +18,48 @@
     <Name>The Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel id="H3" Rating="4.5">
     <Name>Omni Tempe</Name>
     <Phone>480-784-1881</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>7</Number>
       <Street>E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel id="H4" Rating="4.4">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>60</Number>
       <Street>E 5th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel id="H5" Rating="4.2">
     <Name>Canopy By Hilton</Name>
     <Phone>480-968-6800</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>108</Number>
       <Street>E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
