@@ -27,7 +27,7 @@
     </Address>
   </Hotel>
 
-  <Hotel id="H3" Rating="4.5">
+  <Hotel id="H3">
     <Name>Omni Tempe</Name>
     <Phone>480-784-1881</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
@@ -51,7 +51,7 @@
     </Address>
   </Hotel>
 
-  <Hotel id="H5" Rating="4.2">
+  <Hotel id="H5">
     <Name>Canopy By Hilton</Name>
     <Phone>480-968-6800</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
@@ -64,3 +64,4 @@
   </Hotel>
 
 </Hotels>
+
