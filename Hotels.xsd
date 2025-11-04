@@ -2,15 +2,15 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="Hotels">
     <xs:complexType>
-      <xs:sequence>
+      <xs:sequence minOccurs="1" maxOccurs="1">
         <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
-            <xs:sequence>
+            <xs:sequence minOccurs="1" maxOccurs="1">
               <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
               <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
               <xs:element name="Address" minOccurs="1" maxOccurs="1">
                 <xs:complexType>
-                  <xs:sequence>
+                  <xs:sequence minOccurs="1" maxOccurs="1">
                     <xs:element name="Number" type="xs:string" minOccurs="1" maxOccurs="1"/>
                     <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
                     <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
@@ -21,8 +21,8 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="id" type="xs:string" use="required"/>
             <xs:attribute name="Rating" type="xs:string" use="optional"/>
+            <xs:attribute name="id" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
