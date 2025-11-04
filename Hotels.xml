@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://hmorfin.github.io/CSE445-XML/Hotels.xsd">
+<Hotels xmlns="http://hmorfin.github.io/CSE445-XML"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://hmorfin.github.io/CSE445-XML https://hmorfin.github.io/CSE445-XML/Hotels.xsd">
+
 
   <Hotel id="H1" Rating="4.2">
     <Name>Westin</Name>
