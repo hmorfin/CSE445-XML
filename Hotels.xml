@@ -29,7 +29,7 @@
   </Hotel>
 
   <Hotel id="H3" Rating="4.3">
-    <Name>The Westin Tempe</Name>
+    <Name>The Westin Inn Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>11</Number>
@@ -77,7 +77,7 @@
   </Hotel>
 
   <Hotel id="H7" Rating="4.1">
-    <Name>Hyatt Place Tempe/Phoenix Airport</Name>
+    <Name>Hyatt Place Tempe</Name>
     <Phone>480-804-9544</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>1413</Number>
@@ -89,7 +89,7 @@
   </Hotel>
 
   <Hotel id="H8">
-    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
+    <Name>AC Hotel Phoenix</Name>
     <Phone>480-642-6140</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>100</Number>
@@ -101,7 +101,7 @@
   </Hotel>
 
   <Hotel id="H9" Rating="4.4">
-    <Name>Residence Inn Tempe Downtown/University</Name>
+    <Name>Residence Inn Tempe</Name>
     <Phone>480-967-2300</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>510</Number>
@@ -113,7 +113,7 @@
   </Hotel>
 
   <Hotel id="H10">
-    <Name>Moxy Phoenix Tempe/ASU Area</Name>
+    <Name>Moxy Phoenix</Name>
     <Phone>480-337-2850</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>1333</Number>
@@ -125,7 +125,7 @@
   </Hotel>
 
   <Hotel id="H11" Rating="4.1">
-    <Name>Hilton Garden Inn Phoenix-Tempe ASU Area</Name>
+    <Name>Hilton Garden Inn</Name>
     <Phone>480-966-7000</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>720</Number>
